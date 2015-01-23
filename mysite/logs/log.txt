@@ -1,0 +1,50 @@
+[27-Nov-2014 14:07:13] Error at \framework\model\MySQLDatabase.php line 598: Couldn't run query: 
+INSERT INTO "ContactPage_versions" ("SubmitText", "Mailto", "Submittext", "RecordID", "Version") VALUES ('<p>Thanks buddy:)</p>', 'ekaburu@websyske.com', '<p>Thanks buddy:)jjj</p>', 3, 12) 
+
+Column 'Submittext' specified twice (http://localhost/ss/admin/pages/edit/EditForm)
+[27-Nov-2014 14:12:00] Error at \framework\model\MySQLDatabase.php line 598: Couldn't run query: 
+ALTER TABLE "ContactPage" ADD "SubmitText" mediumtext character set utf8 collate utf8_general_ci 
+
+Duplicate column name 'SubmitText' (http://localhost/ss/dev/build/?flush=1&flushtoken=cc2a51c4309ce02ed03004fc2a59f94a)
+[27-Nov-2014 14:16:34] Error at \framework\model\MySQLDatabase.php line 598: Couldn't run query: 
+ALTER TABLE "ContactPage" ADD "SubmitText" mediumtext character set utf8 collate utf8_general_ci 
+
+Duplicate column name 'SubmitText' (http://localhost/ss/dev/build/)
+[27-Nov-2014 14:16:44] Error at \framework\model\MySQLDatabase.php line 598: Couldn't run query: 
+ALTER TABLE "ContactPage" ADD "SubmitText" mediumtext character set utf8 collate utf8_general_ci 
+
+Duplicate column name 'SubmitText' (http://localhost/ss/dev/build/)
+[01-Dec-2014 13:02:54] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/)
+[01-Dec-2014 13:05:07] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/)
+[01-Dec-2014 13:11:20] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/)
+[01-Dec-2014 13:12:05] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/?flush=1&flushtoken=2417f9572f8d9e0d679fe763e43653c9)
+[01-Dec-2014 13:12:06] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/?flush=1&flushtoken=0355da56c8ac29ff6e4af7709309d9b8)
+[01-Dec-2014 13:14:09] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/?flushtoken=384fd568f8f42b7c68b0bb5e15d0f6b7&flush=1)
+[01-Dec-2014 13:20:31] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/?flushtoken=e413f7f4be2cf2ceae182088e02276dd&flush=1)
+[01-Dec-2014 13:23:27] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/?flushtoken=d4c554c7e12ed91023a1ede48dbf7c9a&flush=1)
+[01-Dec-2014 13:23:40] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/?flush=1&flushtoken=452ba879942644e35fefd24a86ce84d9)
+[01-Dec-2014 13:23:41] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/?flush=1&flushtoken=5d96f3306ab5a6ff1bab1f8b8277ef08)
+[01-Dec-2014 13:25:00] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/)
+[01-Dec-2014 13:25:11] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/?flush=1&flushtoken=bcb846e16f1defa75e152c4c93dde172)
+[01-Dec-2014 13:25:12] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/?flush=1&flushtoken=5d54ee102a43eadf2d0a7f7b8881d8cd)
+[01-Dec-2014 13:27:02] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/?flushtoken=b8ff09480ab0ab4dc96329c0cd192e98&flush=1)
+[01-Dec-2014 13:27:34] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/?flushtoken=ecc10412b8627d8e253dc94a83620884&flush=1)
+[01-Dec-2014 13:27:48] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/?flush=1&flushtoken=39abe266682a9c23855ea65239f6f6a2)
+[01-Dec-2014 13:27:49] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/?flush=1&flushtoken=bff75c76b46c04d50cd4e39d2ac4da72)
+[01-Dec-2014 14:34:40] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/)
+[01-Dec-2014 14:59:53] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/)
+[01-Dec-2014 15:00:26] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/)
+[01-Dec-2014 15:00:29] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/)
+[01-Dec-2014 15:00:29] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/)
+[01-Dec-2014 15:00:37] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/?flush=1&flushtoken=e027e7e8b125bb57e4a0a742968ab906)
+[01-Dec-2014 15:02:46] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/?flushtoken=4fb49e2db93faf4686dabeef4e528417&flush=1)
+[01-Dec-2014 15:06:56] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/?flushtoken=c311b235ab18ebb4495592f16dbd5605&flush=1)
+[01-Dec-2014 15:07:25] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/)
+[01-Dec-2014 15:09:01] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/)
+[01-Dec-2014 15:09:01] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/)
+[01-Dec-2014 15:09:02] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/)
+[01-Dec-2014 15:11:14] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/)
+[01-Dec-2014 15:13:38] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/)
+[01-Dec-2014 15:13:43] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/)
+[01-Dec-2014 15:15:24] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/)
+[01-Dec-2014 15:18:48] Error at \framework\core\Object.php line 761: Uncaught Exception: Object->__call(): the method 'fortemplate' does not exist on 'SiteConfig' (http://localhost/ss/)

@@ -1,0 +1,83 @@
+form{
+	border:1px dotted blue;
+	width:50%;
+}
+
+form input.text,
+form textarea{
+	padding: 8px;
+	display: block;
+	width: 96.3333%;
+	outline: none;
+	-webkit-appearance: none;
+	text-transform: capitalize;
+	/*color: rgba(85, 81, 81, 0.84);*/
+}
+
+/* ACTIONS */
+.Actions {
+    margin-bottom: 20px;
+}
+    a.btn, button, input[type="submit"], .Actions .action {
+       margin-top: 10px;
+		/*font-family: 'Source Sans Pro', sans-serif;*/
+		/*font-family: Michroma;*/
+		-webkit-appearance: none;
+		cursor: pointer;
+		color: #ffffff;
+		background: #3E4095;
+		border: none;
+		outline: none;
+		display: inline-block;
+		text-transform: uppercase;
+		padding: 8px 30px;
+		/*font-size: 0.875em;*/
+		font-size: 1.2em;
+		letter-spacing: 1.5px;
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
+		-o-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+		border-radius: 7px;
+
+    }
+    a.btn:hover, button, input[type="submit"]:hover, .Actions .action:hover {
+        background: #1DA075;
+        color: #fff;
+    }
+    a.btn {
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+
+/*input[type="text"], .contact-form textarea {
+font-family: 'Source Sans Pro', sans-serif;
+background: #FFFFFF;
+border: 1px solid #E7E7E7;
+color: rgba(85, 81, 81, 0.84);
+padding: 8px;
+display: block;
+width: 96.3333%;
+outline: none;
+-webkit-appearance: none;
+text-transform: capitalize;
+}
+
+margin-top: 10px;
+font-family: 'Source Sans Pro', sans-serif;
+-webkit-appearance: none;
+cursor: pointer;
+color: #ffffff;
+background: #3E4095;
+border: none;
+outline: none;
+display: inline-block;
+text-transform: uppercase;
+padding: 12px 38px;
+font-size: 0.875em;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+
+*/

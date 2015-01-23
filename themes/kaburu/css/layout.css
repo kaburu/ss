@@ -1,0 +1,143 @@
+
+
+body{
+	background-color: #ccc;
+	/*font-family: JosefinSlab;*/
+	font-family: PNova;
+	color:#000;
+
+}
+
+.main{
+	/*border:1px solid red;*/
+	/*background-color: green;*/
+	
+}
+
+/* NAVIGATION */
+
+	/* Primary navigation */
+	.header .inner .unit {
+		position: relative; /* used to position the main navigation */
+		font-family: MuseoSlab;
+		/*font-family: JosefinSlab;*/
+		font-weight: 700;
+	}
+
+	.primary{
+		/*border:1px solid purple;*/
+	}
+
+	.header .primary ul {
+		position:absolute;
+		/*bottom:0;*/
+		top:45px;
+		right:0; /* positions the main navigation */
+		list-style-type: none;
+		/*margin-top:10px;*/
+		/*border: 1px solid red;*/
+	}
+
+	.header .primary li {
+	    float: left;
+	    padding-bottom: 14px;
+	    margin: 0 5px;
+	    position: relative;
+	    white-space: nowrap; /* forces text to never wrap onto a second line */
+	    /*border: 1px solid green;*/
+	}
+
+	.header .primary li a {
+	    color: #000;
+	    font-size: 1.5em;
+	    /*font-family: Helvetica, Arial, sans-serif;*/
+	    padding: 2px 8px;
+	    font-weight: bold;
+	    display: block;
+	    /*border: 1px solid blue;*/
+	}
+
+	.header .primary li a:hover {
+	    color: #1DA075;
+	    text-decoration: none
+	}
+	.header .primary li.section a,
+	.header .primary li.current a {
+	    color: #1DA075;
+	}
+
+
+
+/*	SEARCH	*/
+	/* Search Form */
+	.search-bar {
+		position: absolute;
+		right: 13px;
+		top: 12px;
+		width:25% ;
+		/*border:1px solid red;*/
+	}
+		.search-bar .field {
+			margin: 0;
+			padding: 0;
+		}
+
+		.search-bar input.text {
+		    /*width: 155px;*/
+		    padding: 5px 34px 5px 15px;
+		    color: #000;
+		    font-size: 1.3em;
+		    margin: 0;
+		    border: none;
+		    -moz-border-radius: 14px;
+		    border-radius: 14px;
+		    background: #fff;
+		    font-family: MuseoSlab;
+		    width:100% !important;
+		    /*border: 1px solid green !important;*/
+		    
+		}
+
+		.search-bar form{
+			border: 1px solid purple !important;
+			width:100% !important;
+		}
+
+		/*This is the one that reads Go*/
+		.search-bar form input.action { /* positions the search button icon over the top of the search input */
+		    font-size: 14px;
+		    position: absolute;
+		    right: 5px;
+		    top: 0;
+		    cursor: pointer;
+		    border: none;
+		    padding: 5px;
+		    background: none;
+		    /*font-family: Michroma;*/
+		    font-family: MuseoSlab;
+		    color: #000;
+		    /*color: #848484;*/
+			border-radius: 0;
+			margin: 0;
+			/*border:1px solid red;*/
+		}
+
+		.search-bar .fa-search{
+			border:1px solid green;
+			position:relative;
+			/*right:0px;*/
+			float:right;
+		}
+
+		.search-bar form input.active,
+		.search-bar form input.action:hover {
+		    color: #000;
+		}
+		.search-bar form input:focus,
+		.header textarea:focus {
+		    outline: none; /* removes default browser outlining on focus */
+		}
+		.search-dropdown-icon {
+		    display: none; /* hides search-dropdown-icon when site is at full width - media queries set it to display:block when at mobile/tablet width */
+		}
+	

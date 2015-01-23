@@ -1,0 +1,29 @@
+@font-face{
+	font-family: Michroma;
+	src:url('./fonts/Michroma.ttf');
+
+}
+
+@font-face{
+	font-family: MuseoSlab;
+	src:url('./fonts/MuseoSlab.otf');
+}
+
+
+@font-face{
+	font-family: JosefinSlab;
+	src:url('./fonts/JosefinSlab.ttf');
+}
+
+@font-face{
+	font-family: PNova;
+	src:url('./fonts/PNova.otf');
+}
+
+html{
+	/*font-family: FontAwesome;*/
+	/*font-family: Michroma;*/
+	font-family: comic sans ms;
+	font-style: normal;
+	/*font-size: 0.9em;*/
+}

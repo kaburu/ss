@@ -1,0 +1,17 @@
+{
+    "name": "silverstripe-themes/kaburu",
+    "description": "My self made silverstripe theme",
+    "type": "silverstripe-theme",
+    "keywords": ["silverstripe", "theme"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Eric Kaburu",
+            "homepage": "http://www.websyske.com"
+        }
+    ],
+    "require": {
+        "composer/installers": "*",
+        "silverstripe/framework": ">=3.0"
+    }
+}
